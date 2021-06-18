@@ -1,7 +1,9 @@
-
-python3 -m pip install --upgrade pip
-
-python3 -m pip install torch==1.7.1 torchvision==0.8.2 -f https://download.pytorch.org/whl/torch_stable.html
-
-python3 -m pip install ftfy regex tqdm
-python3 -m pip install git+https://github.com/openai/CLIP.git
+torch==1.7.1 
+torchvision==0.8.2
+ftfy
+regex
+tqdm
+git+https://github.com/openai/CLIP.git
+fastapi
+python-multipart==0.0.5
+aiofiles==0.7.0
