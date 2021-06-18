@@ -60,7 +60,6 @@ def create_image_embeddings(image_paths):
 		conn.execute(query, (img_path, embed))
 		conn.commit()
 		print('Inserted', img_path)
-
 	return 'success'
 
 def cal_sim(feat1, feat2):
