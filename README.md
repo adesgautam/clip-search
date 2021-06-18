@@ -3,7 +3,7 @@
 
 ## A search engine built using OpenAI's Clip model and FastAPI
 
-Find the article for the code (here)[https://adeshg7.medium.com/build-your-own-search-engine-using-openais-clip-and-fastapi-part-1-89995aefbcdd]
+Find the article for the code [here](https://adeshg7.medium.com/build-your-own-search-engine-using-openais-clip-and-fastapi-part-1-89995aefbcdd)
 
 ### Features
 * Image Search
