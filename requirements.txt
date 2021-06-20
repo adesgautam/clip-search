@@ -3,6 +3,7 @@ torchvision==0.8.2
 pandas==1.2.4
 numpy==1.18.5
 scikit-learn==0.23.2
+Jinja2==3.0.1
 fastapi
 requests
 uvicorn
