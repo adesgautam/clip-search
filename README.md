@@ -3,6 +3,8 @@
 
 ## A search engine built using OpenAI's Clip model and FastAPI
 
+[![Build Status](https://travis-ci.com/adesgautam/clip-search.svg?branch=main)](https://travis-ci.com/adesgautam/clip-search)
+
 Find the article for the code [here](https://adeshg7.medium.com/build-your-own-search-engine-using-openais-clip-and-fastapi-part-1-89995aefbcdd)
 
 ### Features
