@@ -8,3 +8,4 @@ fastapi
 python-multipart==0.0.5
 aiofiles==0.7.0
 annoy
+requests
