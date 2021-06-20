@@ -15,10 +15,7 @@ Find the article for the code [here](https://adeshg7.medium.com/build-your-own-s
 To install the requirements use the following commands:
 * `python3 -m pip install --upgrade pip`
 * `python3 -m pip install torch==1.7.1 torchvision==0.8.2 -f https://download.pytorch.org/whl/torch_stable.html`
-* `python3 -m pip install ftfy regex tqdm`
-* `python3 -m pip install git+https://github.com/openai/CLIP.git`
-* `python3 -m pip install fastapi python-multipart==0.0.5 aiofiles==0.7.0`
-* `python3 -m pip install annoy`
+* `python3 -m pip install -r requirements.txt`
 
 ### TODO
 * Celery to run indexing job in background
