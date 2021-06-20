@@ -11,11 +11,6 @@ Find the article for the code [here](https://adeshg7.medium.com/build-your-own-s
 * Use `old_app.py` for brute force search
 * Use `annoy_app.py` for nearest neighbours search using Spotify's Annoy
 
-### TODO
-* Celery to run indexing job in background
-* A better DB to store millions of records(Redis or PostgreSQL)
-* PCA for reducing feature dimensions
-
 ### Installation
 To install the requirements use the following commands:
 * `python3 -m pip install --upgrade pip`
@@ -24,3 +19,8 @@ To install the requirements use the following commands:
 * `python3 -m pip install git+https://github.com/openai/CLIP.git`
 * `python3 -m pip install fastapi python-multipart==0.0.5 aiofiles==0.7.0`
 * `python3 -m pip install annoy`
+
+### TODO
+* Celery to run indexing job in background
+* A better DB to store millions of records(Redis or PostgreSQL)
+* PCA for reducing feature dimensions
