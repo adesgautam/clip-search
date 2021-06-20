@@ -169,26 +169,5 @@ async def revimagesearch(request: Request, uploaded_file: UploadFile = File(...)
 	context = {"request": request, 'images': images, "query_img": static_file_location}
 	return templates.TemplateResponse("reverse_image_search.html", context)
 
-# @app.post("/upload-file/")
-# async def create_upload_file(uploaded_file: UploadFile = File(...)):
-#     file_location = f"upload/{uploaded_file.filename}"
-#     with open(file_location, "wb+") as file_object:
-#         file_object.write(uploaded_file.file.read())
-#     return {"info": f"file '{uploaded_file.filename}' saved at '{file_location}'"}
-
 if __name__ == "__main__":
-	uvicorn.run(app, host='127.0.0.1', port=8000, debug=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	uvicorn.run(app, host='127.0.0.1', port=9000, debug=True)

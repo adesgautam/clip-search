@@ -8,11 +8,11 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <title>Reverse Image Search</title>
+    <title>Image Search</title>
   </head>
   <body>
 
-  <div class="container">
+	<div class="container">
 		<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
 		  <div class="container-fluid">
 
@@ -23,11 +23,12 @@
 		    </button>
 
 		    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
 		      <ul class="navbar-nav">
 		      	<li class="nav-item dropdown">
-		          <a class="btn btn-sm nav-link px-2" aria-current="page" href="startindexinghome">Submit Images</a>
+		          <a class="btn btn-sm nav-link px-2" aria-current="page" href="createimageembedshome">Submit Images</a>
 		        </li>
-		        
+
 		        <li class="nav-item dropdown">
 		          <a class="btn btn-sm nav-link px-2" aria-current="page" href="imagesearchhome">Image Search</a>
 		        </li>
@@ -42,35 +43,9 @@
 		</nav>
 
 		<br>
-		<div class="w-50">
-			<form class="d-flex navbar-right" enctype="multipart/form-data"  action="revimagesearch" method="POST">
-	      <input class="form-control" type="file" id="myFile" name="uploaded_file">
-	      <button type="submit" class="btn btn-primary" id="submit" style="margin-left: 20px;">Upload</button>
-	  	</form>
-	  </div>
-	
-		{% if query_img %}
-			<br>
-			<label style="font-size: 20px;">Query Image</label>
-			<br>
-			<img src="{{query_img}}" class="img-thumbnail" style="margin-top: 10px;" alt="..." height="25%" width="25%">
-			<br><br>
-			<label style="font-size: 25px; margin-bottom: 5px;">Similar Images</label>
-		{% endif %}
+		<h2>{{msg}}</h2>
 
-		
-		<div class="row text-center text-lg-left">
-			{% if images %}
-				{% for img in images %}
-					<div class="col-lg-3 col-md-4 col-6">
-						<img src="{{img}}" class="img-thumbnail" alt="..." style="margin-top: 15px;" >
-					</div>
-				{% endfor %}
-			{% endif %}
-		</div>
-	</div>
-
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   
   </body>
 </html>
