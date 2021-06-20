@@ -16,3 +16,4 @@ To install the requirements use the following commands:
 * `python3 -m pip install ftfy regex tqdm`
 * `python3 -m pip install git+https://github.com/openai/CLIP.git`
 * `python3 -m pip install fastapi python-multipart==0.0.5 aiofiles==0.7.0`
+* `python3 -m pip install annoy`
