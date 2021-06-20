@@ -1,11 +1,12 @@
 torch==1.7.1 
 torchvision==0.8.2
+fastapi
+requests
+uvicorn
+python-multipart==0.0.5
+aiofiles==0.7.0
 ftfy
 regex
 tqdm
 git+https://github.com/openai/CLIP.git
-fastapi
-python-multipart==0.0.5
-aiofiles==0.7.0
 annoy
-requests
